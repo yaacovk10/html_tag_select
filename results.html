@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Choice</title>
+</head>
+<body>
+<h1>User Choice</h1>
+<p>The user chose the following entrie:</p>
+<p id="entries"></p>
+<p>The user chose the following main dishes:</p>
+<p id="main_dishes"></p>
+<p>The user chose the following dessert:</p>
+<p id="dessert"></p>
+<p>The user chose the following payment:</p>
+<p id="Payment"></p>
+<script>
+    var entries = document.querySelector('input[name="entries"]').value;
+    document.getElementById('entries').innerHTML = entries;
+    </script>
+</body>
+</html>
